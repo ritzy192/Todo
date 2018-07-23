@@ -19,20 +19,20 @@ function appendlist()
     
     var butdel=document.createElement("button");
     butdel.innerHTML="Delete";
-    butdel.setAttribute('id',c1++);
-    butdel.style.backgroundColor="black";
-    butdel.style.color="red";
-    butdel.style.fontSize="15px";
-    butdel.style.width="100px";
+    butdel.setAttribute('class',"listbuttons");
+    // butdel.style.backgroundColor="black";
+    // butdel.style.color="red";
+    // butdel.style.fontSize="15px";
+    // butdel.style.width="100px";
 
 
     var butedit=document.createElement("button");
     butedit.innerHTML="Edit";   
-    butedit.setAttribute('id',c2++);
-    butedit.style.backgroundColor="black";
-    butedit.style.color="yellow";
-    butedit.style.fontSize="15px";
-    butedit.style.width="100px";
+    butedit.setAttribute('class',"listbuttons");
+    // butedit.style.backgroundColor="black";
+    // butedit.style.color="yellow";
+    // butedit.style.fontSize="15px";
+    // butedit.style.width="100px";
     
     li.appendChild(butdel);
     li.appendChild(butedit);

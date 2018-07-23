@@ -1,6 +1,13 @@
+listbuttons
+{
+    background-color:"black";
+    color:"yellow";
+    font:"15px";
+    width:"100px";
+}
 body
 {
-    background-color:lightskyblue;
+    background-color:rgb(69, 176, 243);
 }
 h1
 {
@@ -9,7 +16,7 @@ h1
 }
 button
 {
-    background-color: #4CAF50;
+    background-color: rgb(8, 56, 65);
     color: #fff;
     height: 40px;
     width:  120px;
@@ -50,5 +57,5 @@ button:hover
     background-color: rgb(9, 172, 172);
     border-radius: 15px;
     border-style: solid;
-    border-style: 
 }
+
