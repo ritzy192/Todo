@@ -9,6 +9,10 @@ body
 {
     background-color:rgb(69, 176, 243);
 }
+li
+{
+    font-size: 25px;
+}
 h1
 {
     text-align: center;
@@ -23,39 +27,38 @@ button
     animation-delay: 5ms;
     border-radius: 10px;
     padding: 10px;
-
 }
 button:hover
 {
     background-color: black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-    /* color: white; */
-    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
 }
+.close
+{
+    color: red;
+    position: absolute;
+    right: 1.5rem;
+    margin-left: 10rem;
+}
+.close:hover {
+    background-color:orangered;
+    color: white;
+  }
 #inputfield
 {
-    /* 
-    background-color: lightskyblue;
-    margin-left: 40px;*/
-    margin-right: 50%;
     font-size: 18px;
     background-color: rgb(197, 247, 240);
     border-style: solid;
     text-align: center;
     height: 46px;
-    width: 100%;
-    
+    width: 100%;   
 }
-#inputfield:hover
-{
-    /* background-color: rgb(66, 253, 72);
-    color: black; */
-} 
+
 #listdiv
 {
-    background-color: rgb(9, 172, 172);
+    background-color: #9cd3f5;
     border-radius: 15px;
-    border-style: solid;
+    size: 50%;
+    align-self: center;
 }
 
