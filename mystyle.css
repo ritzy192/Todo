@@ -7,11 +7,21 @@ listbuttons
 }
 body
 {
-    background-color:rgb(69, 176, 243);
+    background-color:rgb(151, 241, 237);
 }
 li
 {
-    font-size: 25px;
+    font-size: 30px;
+    background-color:rgb(236, 255, 254);
+    border-radius: 10px;
+    list-style-type: none;
+    margin-top: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 2.4rem; 
+}
+ul
+{
+    background-color: rgb(151, 241, 237);
 }
 h1
 {
@@ -33,14 +43,14 @@ button:hover
     background-color: black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
 }
-.close
+.delete
 {
     color: red;
     position: absolute;
     right: 1.5rem;
     margin-left: 10rem;
 }
-.close:hover {
+.delete:hover {
     background-color:orangered;
     color: white;
   }
@@ -54,11 +64,4 @@ button:hover
     width: 100%;   
 }
 
-#listdiv
-{
-    background-color: #9cd3f5;
-    border-radius: 15px;
-    size: 50%;
-    align-self: center;
-}
 

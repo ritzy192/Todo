@@ -11,17 +11,17 @@ function appendlist()
         document.getElementById("yourlist").appendChild(lis);
     var span = document.createElement("SPAN");
     var txt = document.createTextNode("\u00D7");
-    span.className="close";
+    span.className="delete";
     span.appendChild(txt);
     lis.appendChild(span);
     //click the close button:
-    var close = document.getElementsByClassName("close");
+    var del = document.getElementsByClassName("delete");
     var i;
-    for (i = 0; i < close.length; i++)
+    for (i = 0; i < del.length; i++)
      {
-        close[i].onclick = function() {
-        var div = this.parentElement;
-        div.style.display = "none";
+        del[i].onclick = function() {
+        var item = this.parentElement;
+        item.style.display = "none";
     }
     }
 }
