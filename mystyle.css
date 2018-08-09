@@ -17,7 +17,7 @@ li
     list-style-type: none;
     margin-top: 0.8rem;
     padding-left: 1rem;
-    padding-right: 2.4rem; 
+    padding-right: 4.8rem; 
     margin-left: -2rem;
 }
 ul
@@ -49,9 +49,18 @@ button:hover
     color: red;
     position: absolute;
     right: 1.5rem;
-    margin-left: 10rem;
 }
 .delete:hover {
+    background-color:orangered;
+    color: white;
+  }
+  .edit
+  {
+    color: red;
+    position: absolute;
+    right: 3rem;
+  }
+  .edit:hover {
     background-color:orangered;
     color: white;
   }
