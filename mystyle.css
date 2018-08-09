@@ -51,18 +51,18 @@ button:hover
     right: 1.5rem;
 }
 .delete:hover {
-    background-color:orangered;
-    color: white;
+    background-color:red;
+    color: rgb(39, 39, 43);
   }
   .edit
   {
-    color: red;
+    color: rgb(134, 236, 125);
     position: absolute;
     right: 3rem;
   }
   .edit:hover {
-    background-color:orangered;
-    color: white;
+    background-color:rgb(134, 236, 125);
+    color: black;
   }
 #inputfield
 {

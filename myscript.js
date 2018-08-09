@@ -11,11 +11,11 @@ function appendlist()
     else
         document.getElementById("yourlist").appendChild(lis);
     var span1 = document.createElement("SPAN");
-    var txt = document.createTextNode("\u00D7");
+    var txt = document.createTextNode("");
     var span2 = document.createElement("Span");
-    var txt2 = document.createTextNode("Edit");
-    span1.className="delete";
-    span2.className="edit";        
+    var txt2 = document.createTextNode("");
+    span1.className="delete far fa-trash-alt";
+    span2.className="edit fas fa-edit";         
     span1.appendChild(txt);
     span2.appendChild(txt2)
     lis.appendChild(span2);
