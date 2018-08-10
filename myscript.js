@@ -1,5 +1,9 @@
+document.getElementById("inputfield").addEventListener("keypress",appendlist)
+
 function appendlist()
 {
+    if(event.keyCode===13)
+    {
     count=1;
     var lis=document.createElement("li");
     var inputvalue=document.getElementById("inputfield").value;
@@ -41,12 +45,16 @@ function appendlist()
             if(count%2===0)
             {
                 var itm=this.parentElement;
-                var temp =itm.innerText;
-                document.getElementById("inputfield").value=temp.slice(0,temp.length-5);
+                document.getElementById("inputfield").value=itm.innerText;
                 itm.style.display="none";
             }
             else
-                alert("please edit or add the item first");
+            {
+                 alert("please edit or add the item first");
+
+                count--;
+            }
         }
     }
+}
 }

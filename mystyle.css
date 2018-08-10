@@ -7,7 +7,7 @@ listbuttons
 }
 body
 {
-    background-color:rgb(151, 241, 237);
+    background-color:rgb(79, 245, 237);
 }
 li
 {
@@ -22,7 +22,7 @@ li
 }
 ul
 {
-    background-color: rgb(151, 241, 237);
+    background-color: rgb(79, 245, 237);
 }
 h1
 {
@@ -49,6 +49,7 @@ button:hover
     color: red;
     position: absolute;
     right: 1.5rem;
+
 }
 .delete:hover {
     background-color:red;
@@ -58,6 +59,7 @@ button:hover
   {
     color: rgb(134, 236, 125);
     position: absolute;
+    /* margin-inline-end: 5rem; */
     right: 3rem;
   }
   .edit:hover {
@@ -73,5 +75,10 @@ button:hover
     height: 46px;
     width: 100%;   
 }
+/* #maindiv
+{
+    margin-left: 25%;
+    margin-right: 25%
+} */
 
 
