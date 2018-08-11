@@ -1,12 +1,15 @@
 document.getElementById("inputfield").addEventListener("keypress",appendlist)
-
+flag=0;
 function appendlist()
 {
     if(event.keyCode===13)
     {
     count=1;
     var lis=document.createElement("li");
-    var inputvalue=document.getElementById("inputfield").value;
+    if(flag===0)
+        var inputvalue=document.getElementById("inputfield").value;
+    else
+    var inputvalue=temp2;
     var t=document.createTextNode(inputvalue);
     document.getElementById("inputfield").value="";
     lis.appendChild(t);
@@ -50,8 +53,23 @@ function appendlist()
             }
             else
             {
-                 alert("please edit or add the item first");
-
+                //  alert("please edit or add the item first");
+                var itm2=this.parentElement;
+                temp2=document.getElementById("inputfield").value;
+                console.log(temp2);
+                document.getElementById("inputfield").value=itm2.innerText;
+                itm2.innerText=temp2;
+                var span1 = document.createElement("SPAN");
+                var txt = document.createTextNode("");
+                var span2 = document.createElement("Span");
+                var txt2 = document.createTextNode("");
+                span1.className="delete far fa-trash-alt";
+                span2.className="edit fas fa-edit";         
+                span1.appendChild(txt);
+                span2.appendChild(txt2);
+                itm2.appendChild(span2);
+                itm2.appendChild(span1);
+                flag=1;
                 count--;
             }
         }
