@@ -7,7 +7,7 @@ listbuttons
 }
 body
 {
-    background-color:rgb(79, 245, 237);
+    background-color: rgb(79, 245, 237);
 }
 li
 {
@@ -20,8 +20,6 @@ li
     padding-left: 1rem;
     padding-right: 4.8rem; 
     margin-left: -2rem;
-        /* animation-name: example;
-        animation-duration:2s infinite; */
     animation: example 2s;
 }
 @keyframes example {
@@ -41,8 +39,9 @@ ul
 }
 h1
 {
+    text-shadow: 2px 2px 5px black;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color:tomato;
 }
 button
 {
@@ -83,8 +82,9 @@ button:hover
   }
 #inputfield
 {
+    box-shadow: 10px 10px;
     font-size: 18px;
-    background-color: rgb(37, 255, 37);
+    background-color: tomato;
     border-style: solid;
     text-align: center;
     height: 46px;
