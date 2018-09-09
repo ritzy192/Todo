@@ -16,13 +16,13 @@ listbuttons
 }
 body
 {
-    background-color: rgb(79, 245, 237);
+    background-color: yellow;
 }
 li
 {
-    font-size: 25px;
+    font-size: 20px;
     /* background-color:rgb(20, 151, 238); */
-    background-color: yellow;
+    background-color: orange;
     border-radius: 10px;
     list-style-type: none;
     margin-top: 0.8rem;
@@ -32,25 +32,25 @@ li
     animation: example 2s;
 }
 @keyframes example {
-    0%   {background-color:rgb(51, 250, 51)}
+    0%   {background-color: tomato;}
     0%   {font-size:0px;}
     /* 25%  {background-color: yellow;}
     25%  {font-size: 20px;} */
-    50%  {background-color: rgb(108, 241, 81);}
-    50%  {font-size: 30px;}
+    50%  {background-color: yellow;}
+    50%  {font-size: 25px;}
     /* 75%  {background-color: rgb(248, 170, 80);}
     75%  {font-size: 30px;} */
-    100% {font-size:25px;}
+    100% {font-size:20px;}
 }
 ul
 {
-    background-color: rgb(79, 245, 237);
+    background-color: yellow;
 }
 h1
 {
-    text-shadow: 2px 2px 5px black;
+    /* text-shadow: 2px 2px 5px black; */
     text-align: center;
-    color:tomato;
+    color:black;
 }
 button
 {
@@ -69,7 +69,7 @@ button:hover
 }
 .delete
 {
-    color: red;
+    color: black;
     position: absolute;
     right: 1.5rem;
 
@@ -80,13 +80,13 @@ button:hover
   }
   .edit
   {
-    color: rgb(134, 236, 125);
+    color: black;
     position: absolute;
     /* margin-inline-end: 5rem; */
     right: 3rem;
   }
   .edit:hover {
-    background-color:rgb(134, 236, 125);
+    background-color:red;
     color: black;
   }
 #inputfield
