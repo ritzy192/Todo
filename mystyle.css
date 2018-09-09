@@ -71,7 +71,7 @@ button:hover
 {
     color: black;
     position: absolute;
-    right: 1.5rem;
+    right: 0.5rem;
 
 }
 .delete:hover {
@@ -83,7 +83,7 @@ button:hover
     color: black;
     position: absolute;
     /* margin-inline-end: 5rem; */
-    right: 3rem;
+    right: 1.7rem;
   }
   .edit:hover {
     background-color:red;
