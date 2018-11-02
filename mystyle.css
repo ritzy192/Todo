@@ -16,7 +16,7 @@ listbuttons
 }
 body
 {
-    background-color: yellow;
+    background-color: steelblue;
 }
 li
 {
@@ -41,10 +41,6 @@ li
     /* 75%  {background-color: rgb(248, 170, 80);}
     75%  {font-size: 30px;} */
     100% {font-size:20px;}
-}
-ul
-{
-    background-color: yellow;
 }
 h1
 {
@@ -100,10 +96,6 @@ button:hover
     height: 46px;
     width: 100%;   
 }
-/* #maindiv
-{
-    margin-left: 25%;
-    margin-right: 25%
-} */
+
 
 

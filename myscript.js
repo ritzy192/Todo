@@ -55,28 +55,7 @@ function appendlist()
                 }
                 else
                 {
-                       alert("please edit or add the item first");
-                    // var itm2=this.parentElement;
-                    // temp2=document.getElementById("inputfield").value;
-                    // // console.log(temp2);
-                    // document.getElementById("inputfield").value=itm2.innerText;
-                    // itm2.innerText=temp2;
-                    // // console.log(itm2);
-                    // var span3 = document.createElement("SPAN");
-                    // var txt3 = document.createTextNode("");
-                    // var span4 = document.createElement("Span");
-                    // var txt4 = document.createTextNode("");
-                    // span3.className="delete far fa-trash-alt";
-                    // span4.className="edit fas fa-edit";         
-                    // span3.appendChild(txt3);
-                    // span4.appendChild(txt4);
-                    // itm2.appendChild(span3);
-                    // itm2.appendChild(span4);
-                    // console.log(itm2);
-
-                    // flag=1;
-                    // c++;
-                    // // console.log(c);
+                    alert("please edit or add the item first");
                     count--;
                 }
             }
